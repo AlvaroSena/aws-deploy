@@ -1,0 +1,26 @@
+{
+  "name": "aws-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch server.ts",
+    "start": "node server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@fastify/cors": "^11.3.0",
+    "fastify": "^5.12.5",
+    "fastify-type-provider-zod": "^7.0.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.163",
+    "@types/node": "^26.6.2",
+    "sst": "4.17.1",
+    "tsx": "^4.23.15"
+  }
+}
